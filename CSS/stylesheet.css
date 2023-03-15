@@ -32,8 +32,7 @@
   
   /*hero banner*/
   .banner {
-    background-image:/* linear-gradient(rgba(148, 146, 146, 0.7),
-        rgba(143, 141, 141, 0.7)),*/
+    background-image:
       url("https://images8.alphacoders.com/921/921329.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -46,6 +45,9 @@
     font-size: 1.5em;
   }
   
+  #banner-text{
+    margin-bottom: 1px;;
+  }
   /*hero banner*/
 
 
@@ -261,9 +263,8 @@
     }
 
     .column-2 {
-      float: left;
-      width: 50%;
-      padding: 10px;
+      
+      width: 90%;
       margin: 1px;
       height: 120px;
     }
