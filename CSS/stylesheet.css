@@ -58,26 +58,14 @@
   }
   
   .body {
-    text-align: center;
-    font-family: sans-serif,Montserrat;
-  }
-  
-  .body2 {
     padding-left: 50px;
-    padding-left: 54px;
-    margin-bottom: 60px;
+    width: 55%;
+    font-family: sans-serif;
   }
   
-  .body3 {
-    padding-left: 50px;
-    padding-right: 100px;
-  }
+
   
-  .body4 {
-    padding-left: 50px;
-    padding-right: 100px;
-  }
-  
+
   #skills {
     padding-left: 50px;
     padding-right: 100px;
@@ -262,11 +250,7 @@
     }
     
     
-    .pannel{
-      background-color: #3698d1;
-      
-      
-    }
+    
 
     .column-2 {
       
@@ -331,11 +315,17 @@
         padding-top: 50px;
         padding-left: 30px;
     }
+
+    
+      
     .pannel{
       display: grid;
       
       grid-template-columns:1fr 1fr;
       grid-template-rows:1fr 1fr;
+    }
+    #edu-content{
+        font-size: 12px;
     }
 
   }
