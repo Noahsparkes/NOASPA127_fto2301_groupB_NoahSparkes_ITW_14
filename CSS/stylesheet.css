@@ -184,7 +184,7 @@
   /* Color and Images for tile Containers  */
   
   .tile-1 {
-    background: url("/images/project-left.jpeg");
+    background: url("/images/account192.png");
     background-size: cover;
     background-color: #808080;
   }
@@ -194,7 +194,7 @@
   }
   
   .tile-3 {
-    background: url("/images/project-left.jpeg");
+    background: url("/images/code128.png");
     background-size: cover;
     background-color: #808080;
   }
@@ -312,7 +312,9 @@
       text-decoration: none;
       font-size: 12px;
     }
-    
+    #banner-text{
+        font-size: 14px;
+    }
     
     
 
@@ -355,14 +357,28 @@
     #footer {
       font-size:14px;
     }
+
+    .fa {
+        padding: 20px;
+        font-size: 20px;
+        width:20px;
+        height:20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin: 15px;
+      }
+      #projects{
+        font-size: 15px;
+      }
     #contact-me{
       font-size: 16px;
     }
     .tile-1{
-      background-image:url(account128.png)
+      background-image:url(/images/account96.png)
     }
     .tile-3{
-      background-image: url(code48.png);
+      background-image: url(/images/code96.png);
     }
     .image-fluid{
       visibility: hidden;
@@ -390,6 +406,9 @@
     }
     #edu-content{
         font-size: 12px;
+    }
+    #education{
+        font-size: 15px;
     }
 
   }
