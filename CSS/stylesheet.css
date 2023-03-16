@@ -1,156 +1,144 @@
 * {
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .break {
-    margin-bottom: 30px;
-  }
-  
-  #link {
-    color: green;
-  }
-  
-  #header {
-    text-align: center;
-  }
-  
-  .picture {
-    display: block;
-    padding-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  
-  .picture {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  
-  
-  /*hero banner*/
-  .banner {
-    background-image:
-      url("https://images8.alphacoders.com/921/921329.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    text-align: center;
-  }
-  .hero-text {
-    color:white ;
-    font-size: 1.5em;
-  }
-  
-  #banner-text{
-    margin-bottom: 1px;;
-  }
-  /*hero banner*/
+  font-family: "Poppins", sans-serif;
+}
 
+.break {
+  margin-bottom: 30px;
+}
 
+#link {
+  color: green;
+}
 
-  #education {
-    padding-left: 50px;
-    padding-top: 100px;
-  }
-  
-  .body {
-    padding-left: 50px;
-    width: 55%;
-    font-family: sans-serif;
-  }
+#header {
+  text-align: center;
+}
 
-  .projects{
-    text-align: center;
-  }
-  
+.picture {
+  display: block;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-  
+.picture {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
 
-  #skills {
-    padding-left: 50px;
-    padding-right: 100px;
-  }
+/*hero banner*/
+.banner {
+  background-image: url("https://images8.alphacoders.com/921/921329.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+}
+.hero-text {
+  color: white;
+  font-size: 1.5em;
+}
 
-  #skillbar{
-    padding-top: 50px;
-    padding-left: 300px;
+#banner-text {
+  margin-bottom: 1px;
+}
+/*hero banner*/
 
-  }
-  
-  .top {
-    background-color: #008080;
-    border-radius: 50px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 250px;
-    /*first value is what determines the height of this button */
-    cursor: pointer;
-  }
-  
-  .tile-text{
-    text-align: center;
-    color: #f1f1f1;
-  }
-  #footer {
-    text-align: center;
-    margin-top: 0px;
-    font-size: 16px;
-  }
-  
-  /*nav bar*/
-  
-  * {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-    top: 0;
-    position: sticky;
-  
-  }
-  
-  
-  .topnav a {
-    float: left;
-    color: rgb(252, 248, 248);
-    text-align: center;
-    padding: 14px 26px ;
-    text-decoration: none;
-    font-size: 17px;
-    
-  }
-  
-  .topnav a:hover {
-    background-color: #008080;
-    /*teel*/
-    color: white;
-    border-radius: 18px;
-  }
-  
-  .topnav a.active {
-    background-color: #808080;
-    color: white;
-  }
-  
-  /*nav bar*/
-  
-  /*skill bars*/
+#education {
+  padding-left: 50px;
+  padding-top: 100px;
+}
+
+.body {
+  padding-left: 50px;
+  width: 55%;
+  font-family: sans-serif;
+}
+
+.projects {
+  text-align: center;
+}
+
+#skills {
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+#skillbar {
+  padding-top: 50px;
+  padding-left: 300px;
+}
+
+.top {
+  background-color: #008080;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 250px;
+  /*first value is what determines the height of this button */
+  cursor: pointer;
+}
+
+.tile-text {
+  text-align: center;
+  color: #f1f1f1;
+}
+#footer {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+/*nav bar*/
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  position: sticky;
+}
+
+.topnav a {
+  float: left;
+  color: rgb(252, 248, 248);
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #008080;
+  /*teel*/
+  color: white;
+  border-radius: 18px;
+}
+
+.topnav a.active {
+  background-color: #808080;
+  color: white;
+}
+
+/*nav bar*/
+
+/*skill bars*/
 
 .container {
   width: 60%;
   background-color: #808080;
-    border-radius:80px;
-
+  border-radius: 80px;
 }
 
 .skills {
@@ -158,294 +146,265 @@
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
-  border-radius:80px;
+  border-radius: 80px;
 }
 
-.html {width: 90%; background-color: #008080;}
-.css {width: 80%; background-color: #008080;}
-.js {width: 65%; background-color: #008080;}
+.html {
+  width: 90%;
+  background-color: #008080;
+}
+.css {
+  width: 80%;
+  background-color: #008080;
+}
+.js {
+  width: 65%;
+  background-color: #008080;
+}
 
-  /*skill bars*/
-  
-  /*  tiles */
-  .pannel {
-    display: flex;
-  }
-  
-  /* Sizing for tile Containers  */
-  .column-2 {
-    float: left;
-    width: 30%;
-    padding: 10px;
-    margin: 1px;
-    height: 230px;
-    transition: transform .2s;
-  }
+/*skill bars*/
 
-  .column-2:hover{
-    
-      transform: scale(1.1); /*scale of the tile that is getting by*/
-       transform: scale(1.1); 
-       transform: scale(1.1); 
-     
-  }
-  
-  /* Color and Images for tile Containers  */
-  
-  .tile-1 {
-    background: url("/images/account192.png");
-    background-size: cover;
-    background-color: #808080;
-  }
-  
-  .tile-2 {
-    background-color: #008080;
-  }
-  
-  .tile-3 {
-    background: url("/images/code128.png");
-    background-size: cover;
-    background-color: #808080;
-  }
-  
-  .tile-4 {
-    background-color: #008080;
-    text-align: center;
-  }
-  
-  .tile-text {
-    text-align: center;
-    font-size: 20px;
-  }
-  
-  /*tiles*/
+/*  tiles */
+.pannel {
+  display: flex;
+}
 
+/* Sizing for tile Containers  */
+.column-2 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin: 1px;
+  height: 230px;
+  transition: transform 0.2s;
+}
+
+.column-2:hover {
+  transform: scale(1.1); /*scale of the tile that is getting by*/
+  transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Color and Images for tile Containers  */
+
+.tile-1 {
+  background: url("/images/account192.png");
+  background-size: cover;
+  background-color: #808080;
+}
+
+.tile-2 {
+  background-color: #008080;
+}
+
+.tile-3 {
+  background: url("/images/code128.png");
+  background-size: cover;
+  background-color: #808080;
+}
+
+.tile-4 {
+  background-color: #008080;
+  text-align: center;
+}
+
+.tile-text {
+  text-align: center;
+  font-size: 20px;
+}
+
+/*tiles*/
 
 /*Projects*/
 
-
-.projects{
-    padding-top: 60px;
-    
+.projects {
+  padding-top: 60px;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 70px;
-    width:150px;
-    height:150px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    margin: 20px;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-linkedin {
-    background: #008080;
-    color: white;
-  }
-  
-  
-  .fa-codepen {
-    background: #008080;
-    color:white;
-  }
-  
-  .fa-github {
-    background:#008080;
-    color:white;
-  }
-  
-  
+  padding: 20px;
+  font-size: 70px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #008080;
+  color: white;
+}
+
+.fa-codepen {
+  background: #008080;
+  color: white;
+}
+
+.fa-github {
+  background: #008080;
+  color: white;
+}
 
 /*Projects*/
 
+/*form*/
+#submit {
+  background-color: #008080;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  padding: 10px 29px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
-  
-  /*form*/
+.form {
+  font-family: poppins;
+}
+/*form*/
+
+/*footer*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  height: 35%;
+  color: white;
+  text-align: center;
+}
+/*footer*/
+
+
+
+/*==================Mobile=======================*/
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 9px;
+  }
+  .hero-text {
+    font-size: 0.9em;
+  }
+
+  .topnav a {
+    display: inline-block;
+    color: rgb(252, 248, 248);
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  #banner-text {
+    font-size: 14px;
+  }
+
+  .column-2 {
+    width: 90%;
+    margin: 1px;
+    height: 120px;
+  }
+  .container {
+    width: 80%;
+  }
+  #about {
+    height: 80px;
+    width: 200px;
+  }
+
+  .top {
+    background-color: #008080;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 250px;
+    /*first value is what determines the height of this button */
+    cursor: pointer;
+  }
   #submit {
     background-color: #008080;
     border-radius: 50px;
     color: white;
     text-align: center;
-    padding: 10px 29px;
-    font-size: 16px;
+    padding: 4px 20px;
+    font-size: 13px;
     cursor: pointer;
   }
-  
-  .form {
-    font-family: poppins;
+  #footer {
+    font-size: 14px;
   }
-  /*form*/
-  
 
-
-  /*footer*/
-  .footer {
-    
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#333;
-    height:35%;
-    color: white;
+  .fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
     text-align: center;
- }
-  /*footer*/
-  
-
-
-
-
-/*===================Animation=====================*/
-
-
-
-/*===================Animation=====================*/
-
-
-
-  
-  /*==================Mobile=======================*/
-
-  @media screen and (max-width:425px) {
-    h1{
-       font-size: 15px;
-    }
-
-    h2{
-      font-size: 9px;
-    }
-    .hero-text{
-      font-size:0.9em;
-    }
-  
-    .topnav a {
-      display:inline-block;
-      color: rgb(252, 248, 248);
-      text-align: center;
-      padding: 10px 16px;
-      text-decoration: none;
-      font-size: 12px;
-    }
-    #banner-text{
-        font-size: 14px;
-    }
-    
-    
-
-    .column-2 {
-      
-      width: 90%;
-      margin: 1px;
-      height: 120px;
-    }
-    .container{
-      width: 80%;
-    }
-    #about {
-      height: 80px; 
-      width: 200px; 
-    }
-
-    .top {
-      background-color: #008080;
-      border-radius: 50px;
-      color: white;
-      padding: 10px 18px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 13px;
-      margin-top: 250px;
-      /*first value is what determines the height of this button */
-      cursor: pointer;
-    }
-    #submit {
-      background-color: #008080;
-      border-radius: 50px;
-      color: white;
-      text-align: center;
-      padding: 4px 20px;
-      font-size: 13px;
-      cursor: pointer;
-    }
-    #footer {
-      font-size:14px;
-    }
-
-    .fa {
-        padding: 20px;
-        font-size: 20px;
-        width:20px;
-        height:20px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-        margin: 15px;
-      }
-      #projects{
-        font-size: 15px;
-      }
-    #contact-me{
-      font-size: 16px;
-    }
-    .tile-1{
-      background-image:url(/images/account96.png)
-    }
-    .tile-3{
-      background-image: url(/images/code96.png);
-    }
-    .image-fluid{
-      visibility: hidden;
-
-    }
-    .image-code{
-      visibility: hidden;
-    }
-    .tile-text{
-      font-size: 10px;
-    }
-
-    #skillbar{
-        padding-top: 50px;
-        padding-left: 30px;
-    }
-
-    
-      
-    .pannel{
-      display: grid;
-      
-      grid-template-columns:1fr 1fr;
-      grid-template-rows:1fr 1fr;
-    }
-    #edu-content{
-        font-size: 12px;
-    }
-    #education{
-        font-size: 15px;
-    }
-
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 15px;
   }
-  /*==================Mobile=======================*/
-
-
-
-
-
-  /*==================Tablet=======================*/
-  @media screen and (max-width:768px) {
-  
-    .hero-text{
-      font-size:20px;
-    }
-
+  #projects {
+    font-size: 15px;
+  }
+  #contact-me {
+    font-size: 16px;
+  }
+  .tile-1 {
+    background-image: url(/images/account96.png);
+  }
+  .tile-3 {
+    background-image: url(/images/code96.png);
+  }
+  .image-fluid {
+    visibility: hidden;
+  }
+  .image-code {
+    visibility: hidden;
+  }
+  .tile-text {
+    font-size: 10px;
   }
 
+  #skillbar {
+    padding-top: 50px;
+    padding-left: 30px;
+  }
 
-  /*==================Tablet=======================*/
+  .pannel {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  #edu-content {
+    font-size: 12px;
+  }
+  #education {
+    font-size: 15px;
+  }
+}
+/*==================Mobile=======================*/
+
+/*==================Tablet=======================*/
+@media screen and (max-width: 768px) {
+  .hero-text {
+    font-size: 20px;
+  }
+}
+
+/*==================Tablet=======================*/
