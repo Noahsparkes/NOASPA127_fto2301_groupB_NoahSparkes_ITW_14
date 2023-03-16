@@ -179,6 +179,15 @@
     padding: 10px;
     margin: 1px;
     height: 230px;
+    transition: transform .2s;
+  }
+
+  .column-2:hover{
+    
+      transform: scale(1.1); /*scale of the tile that is getting by*/
+       transform: scale(1.1); 
+       transform: scale(1.1); 
+     
   }
   
   /* Color and Images for tile Containers  */
@@ -288,6 +297,17 @@
  }
   /*footer*/
   
+
+
+
+
+/*===================Animation=====================*/
+
+
+
+/*===================Animation=====================*/
+
+
 
   
   /*==================Mobile=======================*/
